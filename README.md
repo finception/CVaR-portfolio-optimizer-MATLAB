@@ -1,4 +1,4 @@
-Risk and Reward Analysis Project
+** Risk and Reward Analysis Project **
 
 This repository contains 10 different MATLAB/Python codes for risk and reward analysis using portfolio optimization techniques. Each script is designed with varying risk profiles and reward scenarios, ranging from low to high risk. The equity portion is gradually increased from Portfolio 1 to Portfolio 10, with a corresponding increase in international exposure.
 
