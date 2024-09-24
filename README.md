@@ -1,15 +1,15 @@
-** Risk and Reward Analysis Project **
+***Risk and Reward Analysis Project***
 
 This repository contains 10 different MATLAB/Python codes for risk and reward analysis using portfolio optimization techniques. Each script is designed with varying risk profiles and reward scenarios, ranging from low to high risk. The equity portion is gradually increased from Portfolio 1 to Portfolio 10, with a corresponding increase in international exposure.
 
-Project Structure
+__Project Structure__
 
 data file.xlsx: Contains all financial data, including index members and asset returns.
 Core Code: All codes use PortfolioCVaR to optimize portfolios based on Conditional Value-at-Risk (CVaR).
 Scenario Generation: The mvnrnd function is used to generate scenarios for portfolio simulations.
 Files
 
-Low Risk Portfolios (1-3)
+__Low Risk Portfolios (1-3)__
 These portfolios have a higher allocation to bonds and money market instruments.
 
 Low Risk Portfolio 1 (low_risk_code1.m)
@@ -22,7 +22,8 @@ Slightly increased exposure to equities while retaining a bond-heavy portfolio.
 Low Risk Portfolio 3 (low_risk_code3.m)
 
 Balanced allocation between bonds and a small portion of equities, with low international exposure.
-Medium Risk Portfolios (4-7)
+
+__Medium Risk Portfolios (4-7)__
 These portfolios gradually increase the equity allocation and introduce more international exposure.
 4. Medium Risk Portfolio 4 (medium_risk_code4.m)
 
@@ -36,7 +37,8 @@ Higher equity exposure with a mix of international equities and bonds.
 Medium Risk Portfolio 7 (medium_risk_code7.m)
 
 A mix of global bonds, equities, and commodities, tailored for moderate risk tolerance.
-High Risk Portfolios (8-10)
+
+__High Risk Portfolios (8-10)__
 These portfolios are heavily skewed toward equities, with increasing international exposure.
 8. High Risk Portfolio 8 (high_risk_code8.m)
 
@@ -51,7 +53,7 @@ How to Run the Codes
 
 Download the data file.xlsx and any of the code files you want to run.
 Open the code file in MATLAB or Python.
-Ensure that the necessary dependencies are installed (e.g., Financial Toolbox in MATLAB).
+Ensure that the necessary dependencies are installed (e.g., __Financial Toolbox in MATLAB__).
 Run the script to generate portfolio weights and analyze risk and return profiles.
 View the output pie charts and frontier plots for detailed insights.
 Portfolio Risk and Return Metrics
